@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Futura; sans-serif;
+}
+
+body {
+    background-color: #FFF;
+}
+
+.introduction {
+   height: 270px;
+   position: relative;
+   text-align: center;
+}
+
+.introduction p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.header {
+    font-size: 70px;
+    font-weight: lighter;
+    color: #FFDC00;
+    font-style: italic;
+    background-color: #7FDBFF;
+}
+
+.description {
+    font-size: 65px;
+    font-weight: lighter;
+    color: #111;
+    font-style: italic;
+    background-color: #FFDC00;
+}
+
+.year {
+    font-size: 55px;
+    font-weight: lighter;
+    color: #FFDC00;
+    font-style: normal;
+    background-color: #7FDBFF;
+}
+
+.social {
+    font-size: 55px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #FF851B;
+}
+
+.animation {
+    font-size: 55px;
+    font-weight: lighter;
+    background-color: #7FDBFF;
+    font-style: normal;
+}
+
+.animation span {
+    animation: animate 1s linear infinite;
+}
+
+.animation span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+
+.animation span:nth-child(2)
+{
+    animation-delay: 0.2s;
+}
+
+.animation span:nth-child(3)
+{
+    animation-delay: 0.4s;
+}
+
+@keyframes animate
+{
+    0%, 80%
+    {
+        color: #7FDBFF;
+        text-shadow: none;
+    }
+
+    100%
+    {
+        color: #FFDC00;
+        text-shadow: none;
+     }
+}
