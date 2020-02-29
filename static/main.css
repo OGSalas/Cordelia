@@ -9,16 +9,16 @@ body {
 }
 
 .introduction {
-   height: 200px;
-   position: relative;
-   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
 }
 
 .introduction p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
+    text-align: center;
+    margin: auto;
+    width: 100vh;
 }
 
 .header {
