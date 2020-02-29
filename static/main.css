@@ -9,7 +9,7 @@ body {
 }
 
 .introduction {
-   height: 270px;
+   height: 200px;
    position: relative;
    text-align: center;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .header {
-    font-size: 70px;
+    font-size: 75px;
     font-weight: lighter;
     color: #FFDC00;
     font-style: italic;
